@@ -1,6 +1,6 @@
 variable v1 {
     type = string 
-    default = "hello"
+    default = "hello world"
 }
 
 resource local_file r1 {
@@ -10,4 +10,5 @@ resource local_file r1 {
 
 output o1 {
     value = local_file.r1.id
+
 }
